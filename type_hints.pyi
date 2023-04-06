@@ -1,0 +1,6 @@
+class Duck:
+    def quack(self) -> None:
+        ...
+
+    def swim(self) -> None:
+        ...

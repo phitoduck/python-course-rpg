@@ -1,0 +1,26 @@
+{
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        {
+            "color": "lightblue",
+            "column": 79
+        },
+        {
+            "color": "lightgreen",
+            "column": 99
+        },
+    ],
+    "black-formatter.args": [
+        "--line-length=99"
+    ],
+    "pylint.args": [
+        "--disable=missing-class-docstring"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.linting.mypyEnabled": true
+}
