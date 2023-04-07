@@ -1,31 +1,8 @@
-var: int = 1
-
-
-def sum_first_column_of_csv(csv):
-    ...
-
-
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-
-
 class Duck:
     def __init__(self):
         ...
 
-    def __getattr__(self, attr: int):
+    def __getattr__(self, attr: str):
         if attr == "quack":
             return lambda: print("quack")
         elif attr == "swim":
@@ -34,27 +11,18 @@ class Duck:
             raise AttributeError
 
 
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
 
 
 duck = Duck()
-
 duck.quack()
-duck.swim()
 duck.fly()
-duck.eat()
+
+
+
+
+
+
+
 
 
 from typing import Type
@@ -133,5 +101,3 @@ def greet(name: Optional[str]):
         return
     print(f"Hello, {name}!")
 
-
-greet(None)

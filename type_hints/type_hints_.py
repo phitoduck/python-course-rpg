@@ -4,14 +4,6 @@ from dataclasses import dataclass
 from typing import Dict, Generic, List, NamedTuple, TypedDict, TypeVar, Union
 
 
-def hi(x: str) -> str:
-    return 1
-    print("hi")
-
-
-y: list = hi()
-
-
 class Point(NamedTuple):
     x: int
     y: int
