@@ -135,10 +135,6 @@ my_string = "Hello, World!   "
 my_variable = 1
 
 
-import os
-import sys
-
-
 from __future__ import print_function
 
 
@@ -147,7 +143,7 @@ def my_function():
 
 
 if True:
-    import os
+    pass
 
 
 class MyClass:
