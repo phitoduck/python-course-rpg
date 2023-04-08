@@ -11,21 +11,11 @@ class Duck:
             raise AttributeError
 
 
-
+e = 1
 
 duck = Duck()
 duck.quack()
 duck.fly()
-
-
-
-
-
-
-
-
-
-from typing import Type
 
 
 class Pikachu:
@@ -53,18 +43,11 @@ def consume_many_types(
 
 
 from typing import (
-    Any,
     Dict,
-    Iterable,
     List,
-    Literal,
-    Mapping,
-    NamedTuple,
     Optional,
-    Sequence,
     Set,
     Tuple,
-    TypedDict,
     Union,
 )
 
@@ -100,4 +83,3 @@ def greet(name: Optional[str]):
         print("Hello!")
         return
     print(f"Hello, {name}!")
-
