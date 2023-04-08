@@ -1,7 +1,14 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Dict, Generic, List, NamedTuple, TypedDict, TypeVar, Union
+from typing import (
+    Dict,
+    Generic,
+    List,
+    NamedTuple,
+    TypeVar,
+    Union,
+)
 
 
 class Point(NamedTuple):
