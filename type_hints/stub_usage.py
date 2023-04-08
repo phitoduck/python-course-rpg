@@ -7,7 +7,5 @@ duck.quack()
 def add(
     a,  # type: int
     b,  # type: int
-):      # type: (...) -> int
+):  # type: (...) -> int
     return a + b
-
-
