@@ -1,7 +1,7 @@
 import random
 
 PLAYER_ART = """
-        O 
+        O
       / | \\
      /  |  \\
         |
@@ -9,8 +9,8 @@ PLAYER_ART = """
 """
 
 DRAGON_ART = """
-      /\\_/\\  
-   VS   ( o.o ) 
+      /\\_/\\
+   VS   ( o.o )
         > ^ <
 """
 
