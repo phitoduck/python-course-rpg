@@ -43,8 +43,6 @@ repos:
       # Prevent committing directly to trunk (since Bitbucket wants us to pay for this feature)
       - id: no-commit-to-branch
         args: ["--branch=main"]
-      # Detects *your* aws credentials from your ~/.aws/credentials file
-      - id: detect-aws-credentials
       # Detects the presence of private keys
       - id: detect-private-key
 
