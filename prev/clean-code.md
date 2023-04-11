@@ -20,4 +20,4 @@ How do you get there:
 - principle of least surprise
 - idiomatic
 - code to interfaces, not implementations
-- 
+-

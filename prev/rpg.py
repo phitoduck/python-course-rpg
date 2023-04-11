@@ -6,7 +6,7 @@ mh = 10
 dd = 0
 
 player_art = """
-        O 
+        O
       / | \\
      /  |  \\
         |
@@ -14,8 +14,8 @@ player_art = """
 """
 
 dragon_art = """
-      /\\_/\\  
-   VS   ( o.o ) 
+      /\\_/\\
+   VS   ( o.o )
         > ^ <
 """
 
