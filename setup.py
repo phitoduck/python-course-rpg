@@ -8,5 +8,8 @@ setup(
     author_email='sagardesaee@gmail.com',
     description='Test package folder',
     license='MIT',
-    install_requires=["numpy==1.24.3"]
+    install_requires=["numpy==1.24.3"],
+    setup_requires=[
+        "wheel"
+    ]
 )
