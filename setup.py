@@ -7,5 +7,6 @@ setup(
     author='Sagar Desai',
     author_email='sagardesaee@gmail.com',
     description='Test package folder',
-    license='MIT'
+    license='MIT',
+    install_requires=["numpy==1.24.3"]
 )
